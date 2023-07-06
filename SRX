@@ -1,0 +1,21 @@
+Copy the coresponding images to devices.
+
+1) go to secondary
+
+2) request routing-engine login node 1
+
+3) request system software add /var/tmp/<filename> no-validate unlink
+
+4) go to primary
+
+5) request system software add /var/tmp/<filename> no-validate unlink
+
+6) go to secondary
+
+7) request routing-engine login node 1
+
+8) request system reboot
+
+9) on primary 
+
+10) request system reboot
